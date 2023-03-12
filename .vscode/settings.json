@@ -1,0 +1,13 @@
+{
+    "cmake.configureOnOpen": false,
+    "SetNameExecuteBuildFile": "VSC_G071RB",
+    "SetDeviceARM": "STM32G071RB",
+    "SetPathToolchainARM": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin",
+    "SetPathJlinkGDB": "C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe",
+    "files.associations": {
+        "stm32g0xx_it.h": "c",
+        "main.h": "c",
+        "stm32g0xx_hal.h": "c",
+        "stm32g071xx.h": "c"
+    }
+}

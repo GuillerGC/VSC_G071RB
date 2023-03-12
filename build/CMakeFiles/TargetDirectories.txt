@@ -1,0 +1,3 @@
+C:/Users/urie_/Documents/FreeRTOS/VSC_G071RB/build/CMakeFiles/VSC_G071RB.elf.dir
+C:/Users/urie_/Documents/FreeRTOS/VSC_G071RB/build/CMakeFiles/edit_cache.dir
+C:/Users/urie_/Documents/FreeRTOS/VSC_G071RB/build/CMakeFiles/rebuild_cache.dir

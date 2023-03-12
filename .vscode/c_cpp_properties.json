@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "ARM none eabi GCC",
+            "includePath": [
+                "${workspaceFolder}/main",
+                "${workspaceFolder}/CMSIS/Include",
+                "${workspaceFolder}/CMSIS/Device/ST/STM32G0xx",
+                "${workspaceFolder}/Device",
+                "${workspaceFolder}/Drivers/Inc",
+                "${workspaceFolder}/Drivers/Inc/Legacy",
+                "${workspaceFolder}/Lib/SEGGER_RTT"
+            ],
+            "defines": [
+                "STM32G071xx",
+                "USE_HAL_DRIVER"
+            ],
+            "compilerPath": "${config:SetPathToolchainARM}/arm-none-eabi-gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

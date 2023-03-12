@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "name": "Cortex Debug",
+          "cwd": "${workspaceRoot}",
+          "executable": "./build/${config:SetNameExecuteBuildFile}.elf",
+          "request": "launch",
+          "type": "cortex-debug",
+          "servertype": "jlink",
+          "device": "${config:SetDeviceARM}",
+          "interface": "swd",
+          "serverpath": "${config:SetPathJlinkGDB}",
+          "armToolchainPath": "${config:SetPathToolchainARM}",
+          "svdFile": "${workspaceRoot}/Device/svd/STM32G071.svd",
+          "debuggerArgs": [
+              "-iex","set auto-load safe-path /",
+          ],
+          "runToEntryPoint": "main",
+          "rttConfig": {
+            "enabled": true,
+            "address": "auto",
+            "decoders": [
+                {
+                    "port": 0,
+                    "type": "console"
+                }
+            ]
+        }
+      }
+  ]
+}
